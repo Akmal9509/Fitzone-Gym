@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FitZone Gym | Transform Your Body</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                FIT<span>ZONE</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="join-btn">Join Now</button>
+<!-- MOBILE MENU BUTTON -->
+
+<button class="menu-toggle" onclick="toggleMenu()">
+    ☰
+</button>
+
+
+<!-- MOBILE MENU -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+    <a href="#home" onclick="toggleMenu()">Home</a>
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#programs" onclick="toggleMenu()">Programs</a>
+    <a href="#gallery" onclick="toggleMenu()">Gallery</a>
+    <a href="#pricing" onclick="toggleMenu()">Pricing</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+
+</div>
+        </nav>
+    </header>
+
+
+   <!-- HERO SLIDER -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="small-title">
+            WELCOME TO FITZONE
+        </p>
+
+        <h1>
+            BUILD YOUR
+            <span>BEST BODY</span>
+        </h1>
+
+        <p>
+            Train harder. Get stronger. Become the best version
+            of yourself with FitZone Gym.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#pricing" class="btn primary-btn">
+                Join Now
+            </a>
+
+            <a href="#programs" class="btn secondary-btn">
+                Explore Programs
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- SLIDER DOTS -->
+
+    <div class="slider-dots">
+
+        <span
+            class="dot active"
+            onclick="changeSlide(0)">
+        </span>
+
+        <span
+            class="dot"
+            onclick="changeSlide(1)">
+        </span>
+
+        <span
+            class="dot"
+            onclick="changeSlide(2)">
+        </span>
+
+    </div>
+
+</section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+
+        <div class="section-title">
+            <p>WHY CHOOSE US</p>
+            <h2>Everything You Need To Get <span>Stronger</span></h2>
+        </div>
+
+        <div class="features">
+
+            <div class="feature-card">
+                <div class="icon">💪</div>
+                <h3>Expert Trainers</h3>
+                <p>
+                    Get guidance from experienced fitness trainers
+                    who help you achieve your goals.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">🏋️</div>
+                <h3>Modern Equipment</h3>
+                <p>
+                    Train with high-quality modern equipment designed
+                    for effective workouts.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">🔥</div>
+                <h3>Results Focused</h3>
+                <p>
+                    Follow structured workouts and stay motivated
+                    towards your fitness transformation.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+  </section>
+
+
+<!-- GYM GALLERY -->
+
+<section id="gallery" class="gallery">
+
+    <div class="section-title">
+
+        <p>OUR GYM</p>
+
+        <h2>
+            Take A Look Inside
+            <span>FitZone</span>
+        </h2>
+
+    </div>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item">
+            <img
+                src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80"
+                alt="FitZone Gym">
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=800&q=80"
+                alt="Gym Equipment">
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=800&q=80"
+                alt="Strength Training">
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80"
+                alt="Fitness Training">
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&q=80"
+                alt="Cardio Training">
+        </div>
+
+        <div class="gallery-item">
+            <img
+                src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=800&q=80"
+                alt="Gym Workout">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PRICING -->
+
+<section id="pricing" class="pricing"> 
+
+
+    <!-- PRICING -->
+    <section id="pricing" class="pricing">
+
+        <div class="section-title">
+            <p>MEMBERSHIP PLANS</p>
+            <h2>Choose Your <span>Plan</span></h2>
+        </div>
+<!-- PROGRAMS -->
+<section id="programs" class="programs">
+
+    <div class="section-title">
+        <p>OUR PROGRAMS</p>
+        <h2>Train Like A <span>Champion</span></h2>
+    </div>
+
+    <div class="program-grid">
+
+        <!-- STRENGTH TRAINING -->
+        <div class="program-card">
+
+            <div class="program-image strength-bg">
+                🏋️
+            </div>
+
+            <div class="program-content">
+
+                <h3>Strength Training</h3>
+
+                <p>
+                    Build muscle, increase strength and improve
+                    your physical performance.
+                </p>
+
+                <button
+                    class="learn-more"
+                    onclick="openProgram('strength')">
+                    Learn More →
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARDIO TRAINING -->
+        <div class="program-card">
+
+            <div class="program-image cardio-bg">
+                🏃
+            </div>
+
+            <div class="program-content">
+
+                <h3>Cardio Training</h3>
+
+                <p>
+                    Improve stamina, endurance and cardiovascular
+                    fitness with effective workouts.
+                </p>
+
+                <button
+                    class="learn-more"
+                    onclick="openProgram('cardio')">
+                    Learn More →
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- FITNESS TRAINING -->
+        <div class="program-card">
+
+            <div class="program-image fitness-bg">
+                🔥
+            </div>
+
+            <div class="program-content">
+
+                <h3>Fitness Training</h3>
+
+                <p>
+                    Burn calories, improve flexibility and become
+                    fitter and stronger every day.
+                </p>
+
+                <button
+                    class="learn-more"
+                    onclick="openProgram('fitness')">
+                    Learn More →
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PRICING -->
+<section id="pricing" class="pricing">
+        <div class="pricing-container">
+
+            <div class="price-card">
+                <h3>Basic</h3>
+
+                <div class="price">
+                    ₹999 <span>/ month</span>
+                </div>
+
+                <ul>
+                    <li>✓ Gym Access</li>
+                    <li>✓ Cardio Equipment</li>
+                    <li>✓ Locker Facility</li>
+                    <li>✕ Personal Trainer</li>
+                </ul>
+
+                <button>Choose Plan</button>
+            </div>
+
+
+            <div class="price-card popular">
+
+                <div class="popular-tag">POPULAR</div>
+
+                <h3>Premium</h3>
+
+                <div class="price">
+                    ₹1,999 <span>/ month</span>
+                </div>
+
+                <ul>
+                    <li>✓ Unlimited Gym Access</li>
+                    <li>✓ All Equipment</li>
+                    <li>✓ Personal Trainer</li>
+                    <li>✓ Diet Guidance</li>
+                </ul>
+
+                <button>Choose Plan</button>
+            </div>
+
+
+            <div class="price-card">
+
+                <h3>Elite</h3>
+
+                <div class="price">
+                    ₹2,999 <span>/ month</span>
+                </div>
+
+                <ul>
+                    <li>✓ Everything in Premium</li>
+                    <li>✓ Personal Workout Plan</li>
+                    <li>✓ Nutrition Plan</li>
+                    <li>✓ Priority Support</li>
+                </ul>
+
+                <button>Choose Plan</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+
+        <div class="section-title">
+            <p>GET IN TOUCH</p>
+            <h2>Start Your <span>Journey</span></h2>
+        </div>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <input
+                type="tel"
+                placeholder="Your Phone"
+                required
+            >
+
+            <textarea
+                placeholder="Your Message"
+                rows="5"
+                required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="logo">
+            FIT<span>ZONE</span>
+        </div>
+
+        <p>
+            © 2026 FitZone Gym. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+<!-- PROGRAM POPUP -->
+
+<div id="programModal" class="modal">
+
+    <div class="modal-content">
+
+        <button class="close-btn" onclick="closeProgram()">×</button>
+
+        <h2 id="modalTitle">Training</h2>
+
+        <p id="modalText"></p>
+
+        <div class="video-container">
+
+            <iframe
+                id="trainingVideo"
+                src=""
+                title="Training Video"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FLOATING CONTACT BUTTONS -->
+
+<div class="floating-buttons">
+
+    <!-- PHONE -->
+    <a
+        href="tel:+919876543210"
+        class="float-btn phone"
+        title="Call FitZone">
+
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6.62 10.79a15.46 15.46 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1C10.61 21 3 13.39 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z"/>
+        </svg>
+
+    </a>
+
+
+    <!-- WHATSAPP -->
+    <a
+        href="https://wa.me/919876543210?text=Hello%20FitZone%20Gym%2C%20I%20want%20to%20join%20your%20gym."
+        target="_blank"
+        rel="noopener noreferrer"
+        class="float-btn whatsapp"
+        title="Chat on WhatsApp">
+
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.52 3.48A11.9 11.9 0 0012.05 0C5.48 0 .13 5.35.13 11.92c0 2.1.55 4.15 1.6 5.96L.03 24l6.27-1.64a11.9 11.9 0 005.75 1.47h.01c6.57 0 11.92-5.35 11.92-11.91 0-3.19-1.24-6.18-3.46-8.44zM12.06 21.8h-.01a9.86 9.86 0 01-5.03-1.38l-.36-.21-3.72.98.99-3.63-.23-.37a9.87 9.87 0 01-1.52-5.27C2.18 6.47 6.61 2.04 12.06 2.04a9.83 9.83 0 017 2.9 9.86 9.86 0 012.89 7.01c0 5.45-4.44 9.85-9.89 9.85zm5.41-7.39c-.3-.15-1.78-.88-2.06-.98-.28-.1-.48-.15-.68.15-.2.3-.78.98-.95 1.18-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.46-.88-.78-1.47-1.74-1.64-2.03-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.68-1.64-.93-2.25-.25-.59-.5-.51-.68-.52h-.58c-.2 0-.52.07-.8.37-.28.3-1.05 1.03-1.05 2.51s1.08 2.91 1.23 3.11c.15.2 2.12 3.24 5.14 4.54.72.31 1.28.49 1.72.63.72.23 1.38.2 1.9.12.58-.09 1.78-.73 2.03-1.43.25-.7.25-1.3.17-1.43-.07-.12-.27-.2-.57-.35z"/>
+        </svg>
+
+    </a>
+
+
+    <!-- INSTAGRAM -->
+    <a
+        href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="float-btn instagram"
+        title="Follow on Instagram">
+
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7.8 2h8.4A5.8 5.8 0 0122 7.8v8.4a5.8 5.8 0 01-5.8 5.8H7.8A5.8 5.8 0 012 16.2V7.8A5.8 5.8 0 017.8 2zm-.2 2A3.6 3.6 0 004 7.6v8.8A3.6 3.6 0 007.6 20h8.8a3.6 3.6 0 003.6-3.6V7.6A3.6 3.6 0 0016.4 4H7.6zm9.65 1.5a1.35 1.35 0 110 2.7 1.35 1.35 0 010-2.7zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6z"/>
+        </svg>
+
+    </a>
+
+</div>
+
+
+</body>
+</html>
